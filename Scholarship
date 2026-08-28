@@ -1,0 +1,15 @@
+mark1 = float(input("English : "))
+mark2 = float(input("Hindi : "))
+mark3 = float(input("Physics : "))
+mark4 = float(input("Chemistry : "))
+mark5 = float(input("Maths : "))
+percentage = (mark1+mark2+mark3+mark4+mark5)/5
+print("percentage :", percentage)
+if (percentage>=95):
+    print("you'll get 20% scholarship")
+elif (percentage>=85 and percentage<95):
+    print("you'll get 15% scholarship")
+elif (percentage>=75 and percentage<85):
+    print("you'll get 10% scholarship")
+else:
+    print("No scholarship awarded")
