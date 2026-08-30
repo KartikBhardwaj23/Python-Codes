@@ -1,0 +1,3 @@
+side1 = float(input("Enter the side of the square : "))
+area = side1**2
+print("Area of square = ", area)
